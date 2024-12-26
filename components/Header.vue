@@ -32,16 +32,3 @@
     </nav>
   </div>
 </template>
-
-<!-- <script>
-export default {
-  name: "HeaderComponent",
-};
-</script> -->
-
-<!-- <style scoped>
-/* You can add any additional styles here */
-.bg-header {
-  background-color: #1d45bd;
-}
-</style> -->
