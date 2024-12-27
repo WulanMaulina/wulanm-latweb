@@ -12,20 +12,20 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <nuxt-link to="/" class="nav-link" href="#">Home</nuxt-link>
+              <nuxt-link to="/" class="nav-link" href="#">Beranda</nuxt-link>
             </li>
             <li class="nav-item">
               <nuxt-link to="/1/profil" class="nav-link" href="#">Profil</nuxt-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Ekstrakulikuler</a>
+              <nuxt-link to="/ekstra/eskul" class="nav-link">Ekstrakulikuler</nuxt-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Keahlian</a>
+              <nuxt-link to="/galery/foto" class="nav-link">Galeri</nuxt-link>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link disabled" href="#" aria-disabled="true">Disabled</a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
