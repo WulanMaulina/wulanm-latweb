@@ -31,17 +31,53 @@
         </div>
       </div>
     </div>
-
-    <!-- Footer di bawah carousel -->
-    <footer class="bg-gray-100 py-6 mt-10">
-      <div class="container mx-auto text-center">
-        <p class="text-gray-600">© 2024 SMK Negeri 4 Tasikmalaya. All Rights Reserved.</p>
-      </div>
-    </footer>
   </div>
 </template>
 
+
+
 <style scoped>
+/* Styling for footer */
+.bg-green-600 {
+  background-color: #338ba6e2;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1280px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.border-t {
+  border-top-width: 1px;
+}
+
+.border-white {
+  border-color: #ffffff;
+}
+
 /* Mengatur font dari h1 */
 .h1 {
   font-family: "Abhaya Libre ExtraBold";
@@ -62,7 +98,6 @@
   transform: translate(-50%, -50%); /* Menempatkan teks di tengah */
   text-align: center;
   color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.5); /* Background transparan untuk teks */
   padding: 1rem;
   border-radius: 8px;
 }
@@ -79,11 +114,48 @@
   margin: 0;
 }
 
-/* Styling footer */
+/* Styling Footer */
 footer {
   background-color: #11419f79;
   padding: 20px 0;
   margin-top: 20px;
   text-align: center;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+/* Menggunakan Flexbox untuk tata letak kolom footer */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.md\:w-1\/4 {
+  width: 25%; /* Setiap kolom akan mengambil lebar 25% pada layar medium ke atas */
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem; /* Memberikan jarak bawah antar elemen */
+}
+
+.md\:mb-0 {
+  margin-bottom: 0; /* Menghilangkan margin pada layar besar */
+}
+
+@media (max-width: 768px) {
+  .md\:w-1\/4 {
+    width: 100%; /* Membuat elemen footer menjadi full width pada layar kecil */
+  }
 }
 </style>
+
+
+
